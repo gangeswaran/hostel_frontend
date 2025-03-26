@@ -10,7 +10,7 @@ import StudentDashboard from "./components/StudentDashboard"
 import About from "./components/About"
 import RegisterStudent from "./components/RegisterStudent"
 import LoginStudent from "./components/Login"
-axios.defaults.baseURL = "http://localhost:5000"
+axios.defaults.baseURL = "https://hostel-backend-4elb.onrender.com"
 function App() {
 
   return (
